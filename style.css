@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+background-color:rgb(187, 155, 97);
+}
+
+/* Top Links */
+.top-links {
+    background-color:orange;
+}
+
+.top-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.top-links a:checked {
+    color: #ff6b35;
+}
+
+/* Hero */
+.hero-section {
+    height: 100vh;
+    background: green, green,
+                url('hero.jpg') center/cover no-repeat;
+    color:black
+}
+
+/* Buttons */
+.custom-btn {
+    background-color: #ff6b35;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.custom-btn:hover {
+    background-color: #e85a2a;
+    color: white;
+    border-radius: 120%;
+}
+
+/* Badges */
+.custom-badge {
+    background-color: #1e2a38;
+    color: white;
+    margin: 5px 5px 0 0;
+    padding: 6px 10px;
+    border-radius: 100px;
+}
+
+/* Cards */
+.custom-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.custom-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Footer */
+.custom-footer {
+    background-color: #1e2a38;
+    color: white;
+}
+}
